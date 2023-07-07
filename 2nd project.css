@@ -1,0 +1,40 @@
+
+/* share style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main-color{
+    color: #FD6E0A;
+}
+
+/* nav related*/
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-style{
+    font-size: 40px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px ;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+/* button style */
+.main-button{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    font-size: 45px;
+    font-weight: 600;
+    border: 0px;
+    padding: 15px 35px;
+}
