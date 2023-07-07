@@ -12,6 +12,7 @@ nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin: 0px 200px;
 }
 .nav-style{
     font-size: 40px;
@@ -37,4 +38,17 @@ nav a{
     font-weight: 600;
     border: 0px;
     padding: 15px 35px;
+}
+/* Header style */
+.header{
+    background: #FFF8F3;
+    padding: 30px 30px 30px 150px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width: 400px;
 }
